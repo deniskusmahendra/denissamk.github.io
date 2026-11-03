@@ -4,163 +4,14 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="en">
 	<head>
 		<title>Denis Sam Kusmahendra's Portfolio</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="description" content="Data analytics portfolio of Denis Sam Kusmahendra: SQL, Python, Power BI, Tableau and spreadsheet projects." />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		
-		<style>
-			/* =========================================================
-			   1. DESKTOP RESPONSIVE LAYOUT (981px and above)
-			   ========================================================= */
-			@media screen and (min-width: 981px) {
-				#header {
-					width: 27% !important;
-					background-color: #ffffff !important;
-					background-image: none !important;
-					color: #333333 !important;
-				}
-
-				#main {
-					margin-left: 27% !important;
-					width: 73% !important;
-					padding-top: 2rem !important;
-				}
-			}
-
-			/* =========================================================
-			   2. MOBILE & TABLET LAYOUT (Up to 980px)
-			   ========================================================= */
-			@media screen and (max-width: 980px) {
-				#header {
-					width: 100% !important;
-					background-color: #ffffff !important;
-					background-image: none !important;
-					text-align: center !important;
-					padding: 2rem 1.5rem !important;
-				}
-
-				#main {
-					margin-left: 0 !important;
-					width: 100% !important;
-					padding: 2rem 1.5rem !important;
-				}
-			}
-
-			/* =========================================================
-			   3. PROJECT GRID & FLEXBOX CENTERING
-			   ========================================================= */
-			#two .row {
-				display: flex !important;
-				flex-wrap: wrap !important;
-				justify-content: center !important; /* Centers any leftover row item (like 5th YouTube project) */
-			}
-
-			#youtube-work {
-				margin-left: 0 !important; /* Cleared hardcoded margins */
-			}
-
-			/* =========================================================
-			   4. GLOBAL COLOR SCHEME & TYPOGRAPHY OVERRIDES
-			   ========================================================= */
-			/* Remove semi-transparent header overlays */
-			#header:before,
-			#header:after {
-				display: none !important;
-				background: none !important;
-			}
-
-			/* Header Typography */
-			#header h1, #header strong {
-				color: #111111 !important;
-				font-weight: 800 !important;
-				font-size: 1.23rem !important;
-				letter-spacing: 0.05em;
-			}
-
-			#header p {
-				color: #333333 !important;
-				font-weight: 600 !important;
-			}
-
-			#header .icons a {
-				color: #333333 !important;
-			}
-			
-			#header .icons a:hover {
-				color: #000000 !important;
-			}
-
-			/* Main Body Typography */
-			#main, #main h2, #main h3, #main p, #footer {
-				color: #ffffff !important;
-			}
-			
-			#main p, #main .work-item p {
-				color: #f0f0f0 !important;
-				font-weight: 600 !important;
-				line-height: 1.5;
-			}
-
-			#two > h2 {
-				text-align: center !important;
-			}
-
-			#main h2 {
-				font-size: 1.4rem !important;
-			}
-			#main h3 {
-				font-size: 1.2rem !important;
-				font-weight: 700 !important;
-				color: #ffffff !important;
-				margin-top: 0.8rem;
-			}
-			#main p {
-				font-size: 1rem !important;
-			}
-
-			/* =========================================================
-			   5. CONTACT SECTION & MEDIA OVERRIDES
-			   ========================================================= */
-			ul.center-contact {
-				display: inline-block;
-				text-align: left;
-				padding-left: 0;
-				list-style: none;
-				margin: 0 auto;
-			}
-			
-			ul.center-contact li {
-				display: flex !important;
-				align-items: center !important;
-				gap: 1rem !important;
-				margin-bottom: 1.25rem !important;
-				padding-left: 0 !important;
-				position: static !important;
-			}
-			
-			ul.center-contact li h3 {
-				position: static !important;
-				margin: 0 !important;
-				font-size: 1.2rem !important;
-				width: 2rem;
-				text-align: center;
-				display: flex;
-				justify-content: center;
-				align-items: center;
-			}
-
-			/* Project Thumbnails */
-			#two .work-item img {
-				filter: brightness(1) contrast(1) !important;
-				transition: filter 0.3s ease, transform 0.3s ease;
-			}
-			#two .work-item img:hover {
-				filter: brightness(1) contrast(1) !important;
-			}
-		</style>
+		<link rel="stylesheet" href="assets/css/custom.css" />
 	</head>
 	<body class="is-preload">
 
@@ -217,7 +68,7 @@
 						<p>Interactive Power BI dashboard analyzing sales KPIs, revenue trends, and regional performance using the Olist e-commerce dataset.</p>
 					</article>
 
-					<!-- YouTube Channel Card -->
+					<!-- YouTube channel card -->
 					<article id="youtube-work" class="col-6 col-12-xsmall work-item">
 						<a href="https://www.youtube.com/@DenisSamKusmahen" class="image fit" target="_blank" rel="noopener noreferrer">
 							<img src="images/youtube.jpg" alt="SQL and Data Analytics Tutorials on YouTube" />
@@ -228,9 +79,9 @@
 
 				</div>
 
-				<ul class="actions" style="display: flex; justify-content: center;">
+				<ul class="actions">
 					<li>
-						<a href="https://github.com/denissamk" class="button" style="color: #ffffff !important; border-color: #ffffff !important;">
+						<a href="https://github.com/denissamk" target="_blank" rel="noopener noreferrer" class="button">
 							Full Portfolio (GitHub)
 						</a>
 					</li>
@@ -238,9 +89,9 @@
 			</section>
 
 			<!-- Contact Section -->
-			<section id="three" style="text-align: center;">
+			<section id="three">
 				<h2>Get In Touch!</h2>
-			
+
 				<div class="row">
 					<div class="col-12">
 						<ul class="labeled-icons center-contact">
@@ -271,9 +122,9 @@
 		<footer id="footer">
 			<div class="inner">
 				<ul class="icons">
-					<li><a href="https://github.com/denissamk" class="icon brands fa-github"><span class="label">Github</span></a></li>
-					<li><a href="https://www.linkedin.com/in/denissamk/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://wa.me/6282189597246" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
+					<li><a href="https://github.com/denissamk" target="_blank" rel="noopener noreferrer" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/denissamk/" target="_blank" rel="noopener noreferrer" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://wa.me/6282189597246" target="_blank" rel="noopener noreferrer" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
 					<li><a href="mailto:denissamkusmahen@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 				</ul>
 			</div>
@@ -281,15 +132,6 @@
 
 		<!-- Scripts -->
 		<script src="assets/js/jquery.min.js"></script>
-		<script>
-			// Disable default Poptrox lightbox so links open directly in new tabs
-			$(document).ready(function() {
-				$('#two .work-item a').off('click').on('click', function(e) {
-					window.open(this.href, '_blank');
-					e.preventDefault();
-				});
-			});
-		</script>
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
