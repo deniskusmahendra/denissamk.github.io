@@ -2,7 +2,7 @@
 
 My personal portfolio website, showcasing my data analytics and business intelligence projects.
 
-**Live site:** [denissamk.github.io](https://denissamk.github.io)
+**Live site:** [deniskusmahendra.github.io](https://deniskusmahendra.github.io)
 
 ## About
 
@@ -12,11 +12,11 @@ I'm Denis Sam Kusmahendra, a Data Analyst based in Jakarta, Indonesia. I work wi
 
 | Project | What it covers | Repository |
 | --- | --- | --- |
-| Demand Forecasting & Inventory Optimization | Holt-Winters forecasting and an ABC-XYZ inventory matrix to support replenishment planning | [View](https://github.com/denissamk/Demand-Forecasting-and-Inventory-Optimization) |
-| Marketing Performance & Funnel Conversion | GA4 event data in BigQuery to find checkout drop-offs, conversion rates and marketing performance | [View](https://github.com/denissamk/Marketing-and-Conversion-Funnel) |
-| Customer Retention & Segmentation Analysis | RFM segmentation and cohort analysis to find high-value customers and track retention | [View](https://github.com/denissamk/Customer-Retention-and-Segmentation) |
-| Sales Performance & Business Dashboard | Interactive Power BI dashboard of sales KPIs, revenue trends and regional performance (Olist dataset) | [View](https://github.com/denissamk/Sales-Performance-Analysis) |
-| YouTube: Data & BI Tools Tutorials | A 5-part SQL tutorial series using PostgreSQL and a fictional e-commerce database | [Channel](https://www.youtube.com/@DenisSamKusmahen) |
+| Demand Forecasting & Inventory Optimization | Holt-Winters forecasting and an ABC-XYZ inventory matrix to support replenishment planning | [View](https://github.com/deniskusmahendra/Demand-Forecasting-and-Inventory-Optimization) |
+| Marketing Performance & Funnel Conversion | GA4 event data in BigQuery to find checkout drop-offs, conversion rates and marketing performance | [View](https://github.com/deniskusmahendra/Marketing-and-Conversion-Funnel) |
+| Customer Retention & Segmentation Analysis | RFM segmentation and cohort analysis to find high-value customers and track retention | [View](https://github.com/deniskusmahendra/Customer-Retention-and-Segmentation) |
+| Sales Performance & Business Dashboard | Interactive Power BI dashboard of sales KPIs, revenue trends and regional performance (Olist dataset) | [View](https://github.com/deniskusmahendra/Sales-Performance-Analysis) |
+| YouTube: Data & BI Tools Tutorials | A 5-part SQL tutorial series using PostgreSQL and a fictional e-commerce database | [Channel](https://www.youtube.com/@deniskusmahendra) |
 
 ## Built With
 
@@ -46,8 +46,8 @@ I'm Denis Sam Kusmahendra, a Data Analyst based in Jakarta, Indonesia. I work wi
 No installation is needed. Clone the repository and open `index.html` in a browser:
 
 ```bash
-git clone https://github.com/denissamk/denissamk.github.io.git
-cd denissamk.github.io
+git clone https://github.com/deniskusmahendra/deniskusmahendra.github.io.git
+cd deniskusmahendra.github.io
 ```
 
 Or serve it locally so it behaves like the live site:
@@ -68,9 +68,9 @@ Style changes go in `assets/css/custom.css`, so the original template file stays
 
 ## Contact
 
-- Email: [denissamkusmahen@gmail.com](mailto:denissamkusmahen@gmail.com)
-- LinkedIn: [linkedin.com/in/denissamk](https://www.linkedin.com/in/denissamk)
-- GitHub: [github.com/denissamk](https://github.com/denissamk)
+- Email: [deniskusmahendra@gmail.com](mailto:deniskusmahendra@gmail.com)
+- LinkedIn: [linkedin.com/in/deniskusmahendra](https://www.linkedin.com/in/deniskusmahendra)
+- GitHub: [github.com/deniskusmahendra](https://github.com/deniskusmahendra)
 
 ## License and Credits
 
