@@ -6,7 +6,7 @@ My personal portfolio website, showcasing my data analytics and business intelli
 
 ## About
 
-I'm Denis Sam Kusmahendra, a Data Analyst based in Jakarta, Indonesia. I work with SQL, spreadsheets, Python, Power BI and Tableau. This site collects my main projects in one place and links to the full write-up and code for each.
+I'm Denis Kusmahendra, a Data Analyst based in Jakarta, Indonesia. I work with SQL, spreadsheets, Python, Power BI and Tableau. This site collects my main projects in one place and links to the full write-up and code for each.
 
 ## Featured Projects
 
